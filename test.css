@@ -1,0 +1,74 @@
+.btn-login {
+    background-color: #1877f2;
+    border: none;
+    border-radius: 6px;
+    font-size: 20px;
+    line-height: 48px;
+    padding: 0 16px;
+    color: white;
+    width: 100%;
+}
+
+.image {
+    height: 106px;
+}
+
+.wrapper {
+    display: flex;
+    margin: 200px 400px 200px 400px;
+}
+
+.w-60 {
+    width: 60%;
+}
+
+.w-40 {
+    width: 40%;
+}
+
+.w-100 {
+    width: 100%;
+}
+
+.input-form {
+    padding: 14px 0;
+    border-radius: 6px;
+    border: 1px solid #dddfe2;
+    margin-bottom: 14px;
+}
+
+.card-login {
+    border-radius: 8px;
+    box-shadow: 0 2px 4px ;
+    margin: 40px 0 0;
+    padding: 20px;
+}
+
+.p-4 {
+    padding: 1.5rem!important;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.mt-2 {
+    margin-top: 0.5rem;
+}
+@media only screen and (max-width: 1024px) {
+    .wrapper {
+        display: flex;
+        margin: 50px 0;
+    }
+}
+@media only screen and (max-width: 768px) {
+    .intro {
+        display: none;
+    }
+
+    .wrapper {
+        display: flex;
+        justify-content: center;
+    }
+}
+
